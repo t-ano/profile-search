@@ -1,9 +1,10 @@
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
-            <a href="/">
+            {{-- <a href="/">
                 <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
-            </a>
+            </a> --}}
+            <div class="text-3xl">会員登録</div>
         </x-slot>
 
         <!-- Validation Errors -->
@@ -12,11 +13,9 @@
         <form method="POST" action="{{ route('register') }}">
             @csrf
 
-            @if (Auth::user()->role == 1)
+            @if (Auth::check() && Auth::user()->role == 1)
                 <!-- Role -->
                 <div>
-                    <div class="font-bold">権限</div>
-
                     <input class="" type="radio" name="role" value="1" />管理者
                     <input class="" type="radio" name="role" value="2" checked />一般ユーザー
                 </div>

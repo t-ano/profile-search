@@ -4,6 +4,12 @@
     "Password" : "パスワード",
     "Confirm Password" : "パスワード再入力",
     "Register" : "登録",
-    "Already registered?" : "登録済みの場合"
+    "Already registered?" : "登録済みの場合",
+    "Remember me" : "ログイン状態を保持",
+    "Log in" : "ログイン",
+    "Forgot your password?" : "パスワードを忘れた場合",
+    "Dashboard" : "タレントプロフィール",
+    "Whoops! Something went wrong." : "エラー",
+    "Log Out" : "ログアウト"
 
 }
