@@ -22,4 +22,4 @@
 
 <br>
 
-画面イメージはこちら → [Notion](https://ossified-elephant-7c0.notion.site/4d286af89b0245be883ae9e632315d83)
+画面イメージはこちら → [Notion](https://ossified-elephant-7c0.notion.site/f2cfe40274aa422fbeaa0e1aaf1c4aa6)
