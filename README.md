@@ -39,7 +39,7 @@ Test user
     git clone git@github.com:t-aono/profile-search.git
     ```
 
-2. Copy .env-example to create .env.
+2. Copy .env.example to create .env.
 
     ```
     cp .env-example .env
@@ -57,7 +57,13 @@ Test user
     composer install
     ```
 
-5. Start local development environment.
+5. Link to storage
+
+    ```
+    php artisan storage:link
+    ```
+
+6. Start local development environment.
 
     ```
     php artisan key:generate
