@@ -1,25 +1,78 @@
-### 利用した技術
+# profile-search
 
-- Laravel 8　（PHPフレームワーク）
-- Laravel Breeze　（認証機能パッケージ）
-- SQLite　（データベース）
-- Tailwind CSS　（CSSフレームワーク）
+## Overview
 
-### 要件
+I used Laravel to develop a simple search site.
 
-- タレントのプロフィールを検索して見ることができる。
-- お問い合わせができる。
-- タレントの管理ができる。
-- 会員登録、ログインができる。
+## Description
 
-### 機能
+You can search and view the profile of the talent.  
+Administrator users can register and edit talents.
 
-- ログイン画面（ユーザー、管理者）
-- プロフィール一覧画面 + 検索機能
-- プロフィール登録画面（管理者）
-- 問合わせ画面
-- 問合わせ一覧・詳細画面（管理者）
+I also added an inquiry function.  
+Administrator users can check the contents of inquiries in a list.
 
-### 画面イメージ
+## Demo
 
-![](https://user-images.githubusercontent.com/46856574/145344685-783427dd-79c4-489a-91ea-264125355b61.png)
+<!-- ## VS. -->
+
+## Requirement
+
+-   "laravel/framework": "^8.40"
+
+## Usage
+
+login page  
+[http://127.0.0.1:8000/login](http://127.0.0.1:8000/login)
+
+Test user
+
+-   Admininisrator 　　admin@ne.jp / admin123
+-   User A 　　　　　 user@ne.jp / user1234
+-   User B 　　　　　 user2@ne.jp / user2345
+
+## Install
+
+1. Get source code
+
+    ```
+    git clone git@github.com:t-aono/profile-search.git
+    ```
+
+2. Copy .env-example to create .env.
+
+    ```
+    cp .env-example .env
+    ```
+
+3. Create database/database.sqlite and prepare the database.
+
+    ```
+    touch database/database.sqlite
+    ```
+
+4. Add package.
+
+    ```
+    composer install
+    ```
+
+5. Start local development environment.
+
+    ```
+    php artisan key:generate
+    php artisan migrate
+    php artisan db:seed
+    php artisan serve
+    ```
+
+<!-- ## Contribution -->
+
+<!-- ## Licence -->
+
+## Author
+
+[t-aono](https://github.com/t-aono)
+
+<!-- README.md Sample -->
+<!-- https://deeeet.com/writing/2014/07/31/readme/ -->
