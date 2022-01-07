@@ -14,6 +14,8 @@ Administrator users can check the contents of inquiries in a list.
 
 ## Demo
 
+![ZOpEJrufmAnYg67bsAfY1641557574-1641557733](https://user-images.githubusercontent.com/46856574/148542881-503b367f-c9a4-4e33-8580-d9f1c23207b4.gif)
+
 <!-- ## VS. -->
 
 ## Requirement
