@@ -20,7 +20,7 @@ Administrator users can check the contents of inquiries in a list.
 
 ## Requirement
 
--   "laravel/framework": "^8.40"
+"laravel/framework": "^8.40"
 
 ## Usage
 
@@ -44,7 +44,7 @@ Test user
 2. Copy .env.example to create .env.
 
     ```
-    cp .env-example .env
+    cp .env.example .env
     ```
 
 3. Create database/database.sqlite and prepare the database.
